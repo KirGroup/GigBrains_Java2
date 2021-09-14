@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java2_2021_05_17.iml" filepath="$PROJECT_DIR$/Java2_2021_05_17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetworkChatClient/NetworkChatClient.iml" filepath="$PROJECT_DIR$/NetworkChatClient/NetworkChatClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetworkChatClientServer/NetworkChatClientServer.iml" filepath="$PROJECT_DIR$/NetworkChatClientServer/NetworkChatClientServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetworkChatServer/NetworkChatServer.iml" filepath="$PROJECT_DIR$/NetworkChatServer/NetworkChatServer.iml" />
+    </modules>
+  </component>
+</project>

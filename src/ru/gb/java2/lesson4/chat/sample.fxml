@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="447.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.gb.java2.lesson4.chat.Controller">
+   <top>
+      <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Имя текущего юзера" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <HBox maxHeight="50.0" minHeight="-Infinity" prefHeight="50.0" prefWidth="598.0" style="-fx-border-width: 2px; -fx-border-color: #FFBBFF;" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="messageTextArea" maxHeight="-Infinity" minHeight="-Infinity" onKeyPressed="#sendTextAreaMessage" prefHeight="50.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <Button fx:id="sendMessageButton" maxHeight="-Infinity" mnemonicParsing="false" onAction="#sendMessage" prefHeight="50.0" text="Отправить" />
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <TextArea fx:id="chatTextArea" prefHeight="280.0" prefWidth="467.0" BorderPane.alignment="CENTER" />
+   </center>
+   <left>
+      <ListView fx:id="userList" prefHeight="380.0" prefWidth="146.0" BorderPane.alignment="CENTER" />
+   </left>
+</BorderPane>
